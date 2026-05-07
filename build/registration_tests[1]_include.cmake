@@ -1,0 +1,5 @@
+if(EXISTS "/mnt/c/Users/malek/OneDrive/Desktop/AUC/CS2/gmock-demo/build/registration_tests[1]_tests.cmake")
+  include("/mnt/c/Users/malek/OneDrive/Desktop/AUC/CS2/gmock-demo/build/registration_tests[1]_tests.cmake")
+else()
+  add_test(registration_tests_NOT_BUILT registration_tests_NOT_BUILT)
+endif()

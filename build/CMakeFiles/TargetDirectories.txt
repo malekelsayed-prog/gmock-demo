@@ -1,0 +1,4 @@
+/mnt/c/Users/malek/OneDrive/Desktop/AUC/CS2/gmock-demo/build/CMakeFiles/registration_tests.dir
+/mnt/c/Users/malek/OneDrive/Desktop/AUC/CS2/gmock-demo/build/CMakeFiles/test.dir
+/mnt/c/Users/malek/OneDrive/Desktop/AUC/CS2/gmock-demo/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/malek/OneDrive/Desktop/AUC/CS2/gmock-demo/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,7 @@
+add_test([=[UserRegistrationTest.SendsWelcomeEmail]=]  /mnt/c/Users/malek/OneDrive/Desktop/AUC/CS2/gmock-demo/build/registration_tests [==[--gtest_filter=UserRegistrationTest.SendsWelcomeEmail]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[UserRegistrationTest.SendsWelcomeEmail]=]  PROPERTIES WORKING_DIRECTORY /mnt/c/Users/malek/OneDrive/Desktop/AUC/CS2/gmock-demo/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[UserRegistrationTest.ReturnsFalseWhenEmailFails]=]  /mnt/c/Users/malek/OneDrive/Desktop/AUC/CS2/gmock-demo/build/registration_tests [==[--gtest_filter=UserRegistrationTest.ReturnsFalseWhenEmailFails]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[UserRegistrationTest.ReturnsFalseWhenEmailFails]=]  PROPERTIES WORKING_DIRECTORY /mnt/c/Users/malek/OneDrive/Desktop/AUC/CS2/gmock-demo/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[UserRegistrationTest.SendEmailToDifferentUser]=]  /mnt/c/Users/malek/OneDrive/Desktop/AUC/CS2/gmock-demo/build/registration_tests [==[--gtest_filter=UserRegistrationTest.SendEmailToDifferentUser]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[UserRegistrationTest.SendEmailToDifferentUser]=]  PROPERTIES WORKING_DIRECTORY /mnt/c/Users/malek/OneDrive/Desktop/AUC/CS2/gmock-demo/build SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  registration_tests_TESTS UserRegistrationTest.SendsWelcomeEmail UserRegistrationTest.ReturnsFalseWhenEmailFails UserRegistrationTest.SendEmailToDifferentUser)
